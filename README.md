@@ -1,7 +1,6 @@
 # News-App
-The “News App” is a basic daily news application to allow user to view top news and latest news and users can search new and view full list the details of news.
-
-A created with the news API for gather news details to full fill the application.
+A daily news app called “News App” is used to read the top stories and the most recent stories on the home screen. Users can also browse a full list of stories, do news searches, view favorite categories news and view fully detailed stories inside the app. This app is is a basic daily news application to allow user to view top news and latest news.
+The news api was used in the design and creation of the mini project to gather news information for the entirety of the application. native Android techniques used this application.
  
 The mini project design and created with the news API for gather news details to full fill the application!!!
 
