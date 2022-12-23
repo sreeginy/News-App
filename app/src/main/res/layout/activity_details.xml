@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".DetailsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_detail_news"
+                android:layout_width="409dp"
+                android:layout_height="273dp"
+                android:layout_above="@+id/text_detail_author"
+                android:layout_marginBottom="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/not_available" />
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/text_detail_content"
+                android:layout_width="405dp"
+                android:layout_height="233dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="-7dp"
+                android:text="london_cryptocurrencies_have_no_intrinsic_value_and_people_who_invest_in_them_should_be_prepared_to_lose_all_their_money_bank_of_england_governor_andrew_bailey_said_digital_currencies_like_bitcoin_ether_and_even_dogecoin_have_been_on_a_tear_this_year_reminding_some_investors_of_the_2017_crypto_bubble_in_which_bitcoin_blasted_toward_20_000_only_to_sink_as_low_as_3_122_a_year_later_asked_at_a_press_conference_thursday_about_the_rising_value_of_cryptocurrencies_bailey_said_they_have_no_intrinsic_value_that_doesn_t_mean_to_say_people_don_t_put_value_on_them_because_they_can_have_extrinsic_value_but_they_have_no_intrinsic_value"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/text_detail_title"
+                android:layout_width="403dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="296dp"
+                android:text="cryptocurrencies_have _no_intrinsic_value_and_people_who_invest_in_them_should_be_prepared_to_lose_all_their_money_bank_of_england_governor_andrew_bailey_said"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_detail_detail"
+                android:layout_width="403dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="233dp"
+                android:text="Detail"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_detail_time"
+                android:layout_width="399dp"
+                android:layout_height="30dp"
+                android:layout_above="@+id/text_detail_title"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="-3dp"
+                android:text="sunday_9_may_2021"
+                android:textColor="@color/white1"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/text_detail_author"
+                android:layout_width="407dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/text_detail_time"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="4dp"
+                android:text="Author of news"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
